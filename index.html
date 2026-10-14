@@ -4,11 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wassilni</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
-<body>
+<img>
   <h1>
-    Welcome To My Page
+    Welcome
   </h1>
+
+  <iframe src="page2.html" frameborder="0" style="border: 1px solid black;"></iframe>
+
+  <p id="text-1">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores veritatis commodi nisi dignissimos suscipit? Sit exercitationem aut sed doloribus deserunt quae voluptate dolorem dolor. Libero perferendis qui repudiandae pariatur magni?
+  </p>
+  <p id="text-2">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores veritatis commodi nisi dignissimos suscipit? Sit exercitationem aut sed doloribus deserunt quae voluptate dolorem dolor. Libero perferendis qui repudiandae pariatur magni? lala
+  </p>
+  <p id="text-3">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores veritatis commodi nisi dignissimos suscipit? Sit exercitationem aut sed doloribus deserunt quae voluptate dolorem dolor. Libero perferendis qui repudiandae pariatur magni?
+  </p>
+
+  <div class="paragraph-container">
+    <p id="start" draggable="true">p1</p>
+    <p id="center">p2</p>
+    <p id="end">p3</p>
+  </div>
+
+  <ol>
+    <li value="10">value 10</li>
+    <li value="20">value 20</li>
+    <li value="30">value 30</li>
+  </ol>
+
+  <div class="container">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
   <img 
     src="./images/hiding.gif" 
     alt="" 
@@ -16,26 +51,19 @@
     style="border: 3px solid black; border-radius: 20px; overflow: hidden;"
     loading="lazy"
   />
-  <a href="./page2.html" title="Page 2"><h1>Link to Page 2</h1></a>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <h2>Monkey Image:</h2>
-  <img src="./images/monkey.jpg" loading="lazy"></img>
+<a href="./page2.html" title="Page 2"><h1>Link to Page 2</h1></a>
+<br/>
+<br/>
+<h2>Monkey Image:</h2>
+<img src="./images/monkey.jpg" loading="lazy" style="cursor: pointer;" />
+<img src="./images/monkey.jpg" loading="lazy" style="cursor: pointer;" />
+
+<form action="page2.html" style="text-align: center;">
+  <input type="text" placeholder="username"><br/>
+  <input type="text" placeholder="password"><br/>
+  <button id="submit">click</button>
+</form>
+
+
 </body>
 </html>

@@ -39,3 +39,7 @@ h1 {
 #start  { text-align: start;  }
 #center { text-align: center; }
 #end    { text-align: end;    }
+
+@media (width <= 414px) {
+  #text-2 { margin-left: 40px; }
+}
